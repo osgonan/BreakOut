@@ -5,7 +5,6 @@ using UnityEngine;
 public class Bloque : MonoBehaviour
 {
     public int reistencia = 1;
-
     public bool RebotaEnDestroy = true;
     // Start is called before the first frame update
     void Start()

@@ -7,14 +7,11 @@ public class Bloque_Vidrio : Bloque
     // Start is called before the first frame update
     void Start()
     {
-        reistencia = 2;        
-    }
-
-    public override void RebotarBola() {
-        if (reistencia <= 0) {
-            base.RebotarBola();
-
+        resistencia = 1;
+        if ((int)opciones.nivelDificultad <= 1) {
+            RebotaEnCollision = false;
         }
-
     }
+
+
 }
